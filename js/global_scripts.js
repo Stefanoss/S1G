@@ -1,5 +1,6 @@
 
 // On every site.
+/*
 function loadNavbar() {
     fetch('nav/nav.html')
         .then(response => {
@@ -13,7 +14,7 @@ function loadNavbar() {
         })
         .catch(error => console.error('Error loading navbar:', error));
 };
-
+*/
 // Loads navbar on every page and saves users light/dark theme.
 window.onload = () => {
     console.log("hello")
