@@ -1,0 +1,47 @@
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+body a {
+    color: purple;
+}
+
+#navbar img{
+    margin-right: 26px;
+}
+
+table h3, h4 {
+    margin: 0px;
+    color: #6e1414;
+}
+
+.book-width {
+    width: 128px;
+    word-wrap: break-word; /* Handle long words */
+    overflow-wrap: break-word; /* Handle long words in modern browsers */
+    white-space: normal; /* Ensure text wraps */
+}
+
+/* Ensure the table respects the width of the cells */
+table {
+    table-layout: fixed;
+}
+
+#maps button {
+    background: none;
+    border: none;
+    color: purple;
+    
+    width: 61px;
+    margin-left: 10px;
+}
+
+#maps button {
+    cursor: pointer;
+}

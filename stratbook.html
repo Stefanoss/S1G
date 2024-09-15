@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Stratbook</title>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr valign="top">
+                <td id="navbar">
+                    <img src="images/Nav.png" usemap="#navmap">
+                    <map name="navmap">
+                        <area shape="rect" coords="0,21,66,41" href="index.html" alt="Home">
+                        <area shape="rect" coords="0,42,66,62" href="bio.html" alt="Bio">
+                        <area shape="rect" coords="0,63,66,83" href="quotes.html" alt="Quotes">
+                        <area shape="rect" coords="0,84,66,104" href="stratbook.html" alt="Stratbook">
+                        <area shape="rect" coords="0,105,66,125" href="books.html" alt="Books">
+                        <!-- Add more areas as needed -->
+                    </map>
+                </td>
+                <td id="content">
+                    <a href="index.html">
+                        <img src="images/StefanIngi.png" alt="StefanIngi" width="401">
+                    </a>
+
+                    <table id="maps" cellspacing="0" cellpadding="0" height="428" style="overflow-y:auto;">
+                        <tbody>
+                            <tr align="left" height="36">
+                                <td colspan="2"><h3>Stratbook</h3></td>
+                                <td rowspan="8" valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('ancient')" src="images/cs maps/ancient.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('ancient')">Ancient</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('anubis')" src="images/cs maps/anubis.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('anubis')">Anubis</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('dust2')" src="images/cs maps/dust2.jpg" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('dust2')">Dust2</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('inferno')" src="images/cs maps/inferno.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('inferno')">Inferno</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('mirage')" src="images/cs maps/mirage.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('mirage')">Mirage</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('nuke')" src="images/cs maps/nuke.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('nuke')">Nuke</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" valign="middle">
+                                    <a href="#">
+                                        <img onclick="toggleMapData('vertigo')" src="images/cs maps/vertigo.png" alt="" height="48px" style="vertical-align: bottom;">
+                                    </a>
+                                </td>
+                                <td>
+                                    <button onclick="toggleMapData('vertigo')">Ancient</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+                <td id="ancient" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Ancient</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="anubis" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Anubis</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="dust2" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Dust II</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="inferno" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Inferno</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="mirage" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Mirage</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="nuke" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Nuke</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle">T</td>
+                                                <td align="middle">Pistol</td>
+                                                <td align="left">5 rusha ískur, 1 kaupir stuff til að smoka vibba og molla heaven</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td id="vertigo" style="display:none;">
+                    <table width="485">
+                        <tbody>
+                            <tr height="43">
+                            </tr>
+                            <tr height="38">
+                                <td><h3>Vertigo</h3></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th width="20">Side</th>
+                                                <th width="120">Type</th>
+                                                <th width="320">Strat</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="middle"></td>
+                                                <td align="middle"></td>
+                                                <td align="left"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="theme-toggle">Toggle Theme</button>
+
+    <!-- <script src="../js/global_scripts.js"></script> -->
+    <!-- <script src="../js/stratbook_scripts.js"></script> -->
+</body>
+</html>
